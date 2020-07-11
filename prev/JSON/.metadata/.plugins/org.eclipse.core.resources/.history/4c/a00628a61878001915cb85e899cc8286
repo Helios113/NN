@@ -1,0 +1,31 @@
+import requests
+import numpy as np
+from scipy.interpolate import interp1d
+import matplotlib.pyplot as plt
+from scipy.signal import savgol_filter
+import csv
+from datetime import datetime
+
+def getTransactions(duration):
+    payload = {'time': duration}
+    r = requests.get('https://www.bitstamp.net/api/v2/transactions/xrpeur/',params=payload)
+    j = r.json()
+    j.reverse()
+    return j
+def getOrders():
+    r = requests.get('https://www.bitstamp.net/api/v2/order_book/xrpeur/')
+    j = r.json()
+    a = j['bids']
+    print("Original:")
+    print(len(a))
+    list1 =[]
+    list2 =[]
+    for i in a:
+        list1.append(float(i[0]))
+        list2.append(float(i[1]))
+    return list1,list2
+a1,b1 = getOrders()
+print(len(a1))
+print(len(b1))
+plt.plot(a1,b1)
+plt.show()

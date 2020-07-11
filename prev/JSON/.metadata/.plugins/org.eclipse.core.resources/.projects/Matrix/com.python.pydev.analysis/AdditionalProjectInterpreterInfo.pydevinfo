@@ -1,0 +1,51 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\Helios\eclipse-workspace\JSON\.metadata\.plugins\org.eclipse.core.resources\.projects\Matrix\com.python.pydev.analysis\v2_indexcache
+matrix|1536858542551559000|C:\Users\Helios\eclipse-workspace\Matrix\matrix.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+12=vertex.__init__
+7=surface
+9=vertex
+4=Node.__init__
+11=point.__init__
+1=C:\Users\Helios\eclipse-workspace\Matrix\matrix.py
+5=Node
+10=surface.__init__
+3=Joint.__init__
+2=matrix
+6=Joint
+8=point
+-- END DICTIONARY
+-- START TREE 1
+12
+cm|1|cm!1^51#1*19@
+gri|2|grid!1^53#1*19@Gridding!1^58#5*18@
+joi|1|Joint!1^19#7*17@
+le|1|le!1^50#1*19@
+lp|1|lp!1^49#1*19@
+nod|1|Node!1^5#7*17@
+plo|1|plotWorkSurface!1^87#5*18@
+poi|1|point!1^38#7*17@
+sur|1|surface!1^32#7*17@
+ver|1|vertex!1^44#7*17@
+wS|1|wS!1^52#1*19@
+wss|1|wss!1^55#1*19@
+-- END TREE
+-- START TREE 2
+13
+E|1|E!3&1^25#9*19@
+I|1|I!3&1^23#9*19@
+Id|2|Id!4&1^14#9*19@Id!3&1^26#9*19@
+Q|1|Q!3&1^24#9*19@
+__i|5|__init__!5&1^6#9*18@__init__!6&1^20#9*18@__init__!7&1^33#9*18@__init__!8&1^39#9*18@__init__!9&1^45#9*18@
+con|3|connection1!3&1^27#9*19@conversionMatrix!10&1^36#9*19@connection2!3&1^28#9*19@
+pos|3|posZ!4&1^17#9*19@posX!4&1^15#9*19@posY!4&1^16#9*19@
+rel|2|relOutline!10&1^34#9*19@relExclusions!10&1^35#9*19@
+res|3|restrainedY!4&1^8#9*19@restrainedX!4&1^9#9*19@restrainedZ!4&1^10#9*19@
+tra|5|transferTension!3&1^21#9*19@transferYZ!4&1^11#9*19@transferXY!4&1^12#9*19@transfoerCompression!3&1^22#9*19@transferXZ!4&1^13#9*19@
+x|3|x!3&1^29#9*19@x!11&1^40#9*19@x!12&1^46#9*19@
+y|3|y!3&1^30#9*19@y!11&1^41#9*19@y!12&1^47#9*19@
+z|1|z!12&1^48#9*19@
+-- END TREE

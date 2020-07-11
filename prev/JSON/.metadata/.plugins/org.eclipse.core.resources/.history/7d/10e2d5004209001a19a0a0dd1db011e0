@@ -1,0 +1,22 @@
+import sys
+def doCalc(v):
+    num = v
+    rSum = 0
+    for i in range(len(num)-1):
+        rSum = rSum + int(num[i])**2
+    return rSum
+
+for line in sys.stdin:
+    pVals = []
+    num = line
+    while True:
+        vv = doCalc(num)
+        if vv == 1:
+            print(1,end="")
+            break
+        elif vv in pVals:
+            print(0,end="")
+            break
+        else:
+            pVals.append(vv)
+            num = str(vv)

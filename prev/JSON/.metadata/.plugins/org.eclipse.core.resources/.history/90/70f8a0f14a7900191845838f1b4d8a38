@@ -1,0 +1,12 @@
+import csv
+
+def FileAdder(data):
+    with open(pth+'/pricedata.csv', 'a',newline='') as price_data:
+        price_writer = csv.writer(price_data, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        price_writer.writerow(data)
+
+def FileGetter():
+    with open(pth+'/pricedata.csv', 'r',newline='') as price_data:
+        price_reader = csv.reader(price_data, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        for row in price_reader:
+            print(', '.join(row))
